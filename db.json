@@ -1,6 +1,7 @@
 {
   "data": {
-    "selfAssessment": {
+    "data": {
+      "selfAssessment": {
       "questions": [
         {
           "questionId": 1,
@@ -38,6 +39,8 @@
         }
       ],
       "comment": "user given comment"
+    }
+
     }
   }
 }
