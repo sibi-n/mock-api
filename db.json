@@ -1,41 +1,43 @@
 {
-  "selfAssessment": {
-    "questions": [
-      {
-        "questionId": 1,
-        "title": "Job Knowledge/Productivity",
-        "description": "Employee's awareness of the requirements, methods, and systems; ability to perform duties; strengths/weaknesses; ability to plan, organize work, and analyze problems.",
-        "comments": "user given input in the editor"
-      },
-      {
-        "questionId": 2,
-        "title": "Staff Development and Mentoring",
-        "description": "Lorem ipsum something something",
-        "comments": "user given input in the editor"
-      }
-    ]
-  },
-  "projectRelatedContributions": {
-    "questions": []
-  },
-  "billable": {
-    "questions": [
-      {
-        "type": "goal",
-        "year": "2023",
-        "value": 96
-      },
-      {
-        "type": "actual",
-        "year": "2023",
-        "value": 100
-      },
-      {
-        "type": "actual",
-        "year": "2022",
-        "value": 72
-      }
-    ],
-    "comment": "user given comment"
+  "data": {
+    "selfAssessment": {
+      "questions": [
+        {
+          "questionId": 1,
+          "title": "Job Knowledge/Productivity",
+          "description": "Employee's awareness of the requirements, methods, and systems; ability to perform duties; strengths/weaknesses; ability to plan, organize work, and analyze problems.",
+          "comments": "user given input in the editor"
+        },
+        {
+          "questionId": 2,
+          "title": "Staff Development and Mentoring",
+          "description": "Lorem ipsum something something",
+          "comments": "user given input in the editor"
+        }
+      ]
+    },
+    "projectRelatedContributions": {
+      "questions": []
+    },
+    "billable": {
+      "questions": [
+        {
+          "type": "goal",
+          "year": "2023",
+          "value": 96
+        },
+        {
+          "type": "actual",
+          "year": "2023",
+          "value": 100
+        },
+        {
+          "type": "actual",
+          "year": "2022",
+          "value": 72
+        }
+      ],
+      "comment": "user given comment"
+    }
   }
 }
