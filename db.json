@@ -2,45 +2,93 @@
   "assessmentEndpoint": {
     "data": {
       "selfAssessment": {
-      "questions": [
+        "questions": [
+          {
+            "questionId": 1,
+            "title": "Job Knowledge/Productivity",
+            "description": "Employee's awareness of the requirements, methods, and systems; ability to perform duties; strengths/weaknesses; ability to plan, organize work, and analyze problems.",
+            "comment": "user given input in the editor"
+          },
+          {
+            "questionId": 2,
+            "title": "Staff Development and Mentoring",
+            "description": "Lorem ipsum something something",
+            "comment": "user given input in the editor"
+          }
+        ]
+      },
+      "projectRelatedContributions": {
+        "questions": []
+      },
+      "billable": {
+        "questions": [
+          {
+            "type": "goal",
+            "year": "2023",
+            "value": 96
+          },
+          {
+            "type": "actual",
+            "year": "2023",
+            "value": 100
+          },
+          {
+            "type": "actual",
+            "year": "2022",
+            "value": 72
+          }
+        ],
+        "comment": "user given comment"
+      }
+    }
+  },
+  "trainingEndpoint": {
+    "trainingConferences": {
+      "questionId": "1",
+      "title": "Training and Conferences and Seminar",
+      "description": "lorem ipsum",
+      "items": [
         {
-          "questionId": 1,
-          "title": "Job Knowledge/Productivity",
-          "description": "Employee's awareness of the requirements, methods, and systems; ability to perform duties; strengths/weaknesses; ability to plan, organize work, and analyze problems.",
-          "comment": "user given input in the editor"
+          "id": "1",
+          "subject": "Workshop",
+          "type": "Internal",
+          "presentedBy": "Adam Cooper",
+          "dateCompleted": "ISO date string"
         },
         {
-          "questionId": 2,
-          "title": "Staff Development and Mentoring",
-          "description": "Lorem ipsum something something",
-          "comment": "user given input in the editor"
+          "id": "2",
+          "subject": "Presentation",
+          "type": "Internal",
+          "presentedBy": "Adam Cooper",
+          "dateCompleted": "ISO date string"
         }
       ]
     },
-    "projectRelatedContributions": {
-      "questions": []
-    },
-    "billable": {
-      "questions": [
+    "presentationAndPapers": {
+      "questionId": "2",
+      "title": "Presentation and Papers",
+      "description": "lorem ipsum",
+      "items": [
         {
-          "type": "goal",
-          "year": "2023",
-          "value": 96
-        },
-        {
-          "type": "actual",
-          "year": "2023",
-          "value": 100
-        },
-        {
-          "type": "actual",
-          "year": "2022",
-          "value": 72
+          "id": "1",
+          "subject": "Workshop",
+          "description": "internal",
+          "host": "Adam Cooper",
+          "dateCompleted": "ISO date string"
         }
-      ],
-      "comment": "user given comment"
-    }
-
+      ]
+    },
+    "projectRequest": {
+      "questionId": "2",
+      "title": "Training, Seminar or Project Request",
+      "description": "Lorem ipsum something something",
+      "comments": "user given input in the editor"
+    },
+    "trainingRequirements": {
+      "questionId": "3",
+      "title": "Carollo Training Requirements",
+      "description": "Lorem ipsum something something",
+      "comments": "user given input in the editor"
     }
   }
 }
