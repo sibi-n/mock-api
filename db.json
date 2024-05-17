@@ -83,13 +83,13 @@
         "questionId": "2",
         "title": "Training, Seminar or Project Request",
         "description": "Lorem ipsum something something",
-        "comments": "user given input in the editor"
+        "comment": "user given input in the editor"
       },
       "trainingRequirements": {
         "questionId": "3",
         "title": "Carollo Training Requirements",
         "description": "Lorem ipsum something something",
-        "comments": "user given input in the editor"
+        "comment": "user given input in the editor"
       }
     }
   }
