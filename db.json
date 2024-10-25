@@ -1,7 +1,7 @@
 {
    "trains":[
       {
-         "id":"818272",
+         "id":"818271",
          "name":"Kovai Express",
          "destination":"Coimbatore",
          "source":"Chennai",
@@ -13,8 +13,19 @@
       },
       {
          "id":"818272",
-         "name":"Kovai Express",
-         "destination":"Coimbatore",
+         "name":"Chennai Express",
+         "destination":"Chennai",
+         "source":"Thanjavur",
+         "startTime":"1:00PM",
+         "endTime":"4:00AM",
+         "totalSeats":120,
+         "availableSeats":43,
+         "ticketPrice":640
+      },
+      {
+         "id":"818273",
+         "name":"Bangalore Express",
+         "destination":"Bangalore",
          "source":"Chennai",
          "startTime":"1:00PM",
          "endTime":"4:00AM",
@@ -23,9 +34,9 @@
          "ticketPrice":640
       },
       {
-         "id":"818272",
-         "name":"Kovai Express",
-         "destination":"Coimbatore",
+         "id":"818274",
+         "name":"Mysore Express",
+         "destination":"Mysore",
          "source":"Chennai",
          "startTime":"1:00PM",
          "endTime":"4:00AM",
@@ -34,9 +45,9 @@
          "ticketPrice":640
       },
       {
-         "id":"818272",
-         "name":"Kovai Express",
-         "destination":"Coimbatore",
+         "id":"818275",
+         "name":"Thanjavur Express",
+         "destination":"Thanjavur",
          "source":"Chennai",
          "startTime":"1:00PM",
          "endTime":"4:00AM",
@@ -45,20 +56,9 @@
          "ticketPrice":640
       },
       {
-         "id":"818272",
-         "name":"Kovai Express",
-         "destination":"Coimbatore",
-         "source":"Chennai",
-         "startTime":"1:00PM",
-         "endTime":"4:00AM",
-         "totalSeats":120,
-         "availableSeats":43,
-         "ticketPrice":640
-      },
-      {
-         "id":"818272",
-         "name":"Kovai Express",
-         "destination":"Coimbatore",
+         "id":"818276",
+         "name":"Kerala Express",
+         "destination":"Kerala",
          "source":"Chennai",
          "startTime":"1:00PM",
          "endTime":"4:00AM",
