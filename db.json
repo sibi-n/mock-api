@@ -1,96 +1,71 @@
 {
-  "assessmentEndpoint": {
-    "data": {
-      "selfAssessment": {
-        "questions": [
-          {
-            "questionId": 1,
-            "title": "Job Knowledge/Productivity",
-            "description": "Employee's awareness of the requirements, methods, and systems; ability to perform duties; strengths/weaknesses; ability to plan, organize work, and analyze problems.",
-            "comment": "user given input in the editor"
-          },
-          {
-            "questionId": 2,
-            "title": "Staff Development and Mentoring",
-            "description": "Lorem ipsum something something",
-            "comment": "user given input in the editor"
-          }
-        ]
-      },
-      "projectRelatedContributions": {
-        "questions": []
-      },
-      "billable": {
-        "questions": [
-          {
-            "type": "goal",
-            "year": "2023",
-            "value": 96
-          },
-          {
-            "type": "actual",
-            "year": "2023",
-            "value": 100
-          },
-          {
-            "type": "actual",
-            "year": "2022",
-            "value": 72
-          }
-        ],
-        "comment": "user given comment"
-      }
-    }
+  "trains":[
+  {
+    id: "818272",
+    name: "Kovai Express",
+    destination: "Coimbatore",
+    source: "Chennai",
+    startTime: "1:00PM",
+    endTime: "4:00AM",
+    totalSeats: 120,
+    availableSeats: 43,
+    ticketPrice: 640,
   },
-  "trainingEndpoint": {
-    "data": {
-      "trainingConferences": {
-        "questionId": "1",
-        "title": "Training and Conferences and Seminar",
-        "description": "lorem ipsum",
-        "items": [
-          {
-            "id": "1",
-            "subject": "Workshop",
-            "type": "Internal",
-            "presentedBy": "Adam Cooper",
-            "dateCompleted": "ISO date string"
-          },
-          {
-            "id": "2",
-            "subject": "Presentation",
-            "type": "Internal",
-            "presentedBy": "Adam Cooper",
-            "dateCompleted": "ISO date string"
-          }
-        ]
-      },
-      "presentationAndPapers": {
-        "questionId": "2",
-        "title": "Presentation and Papers",
-        "description": "lorem ipsum",
-        "items": [
-          {
-            "id": "1",
-            "subject": "Workshop",
-            "description": "internal",
-            "host": "Adam Cooper",
-            "dateCompleted": "ISO date string"
-          }
-        ]
-      },
-      "projectRequest": {
-        "questionId": "2",
-        "title": "Training, Seminar or Project Request",
-        "description": "Lorem ipsum something something",
-        "comment": "user given input in the editor"
-      },
-      "trainingRequirements": {
-        "questionId": "3",
-        "title": "Carollo Training Requirements",
-        "description": "Lorem ipsum something something",
-        "comment": "user given input in the editor"
-      }
-    }
-  }
+  {
+    id: "818272",
+    name: "Kovai Express",
+    destination: "Coimbatore",
+    source: "Chennai",
+    startTime: "1:00PM",
+    endTime: "4:00AM",
+    totalSeats: 120,
+    availableSeats: 43,
+    ticketPrice: 640,
+  },
+  {
+    id: "818272",
+    name: "Kovai Express",
+    destination: "Coimbatore",
+    source: "Chennai",
+    startTime: "1:00PM",
+    endTime: "4:00AM",
+    totalSeats: 120,
+    availableSeats: 43,
+    ticketPrice: 640,
+  },
+  {
+    id: "818272",
+    name: "Kovai Express",
+    destination: "Coimbatore",
+    source: "Chennai",
+    startTime: "1:00PM",
+    endTime: "4:00AM",
+    totalSeats: 120,
+    availableSeats: 43,
+    ticketPrice: 640,
+  },
+  {
+    id: "818272",
+    name: "Kovai Express",
+    destination: "Coimbatore",
+    source: "Chennai",
+    startTime: "1:00PM",
+    endTime: "4:00AM",
+    totalSeats: 120,
+    availableSeats: 43,
+    ticketPrice: 640,
+  },
+  {
+    id: "818272",
+    name: "Kovai Express",
+    destination: "Coimbatore",
+    source: "Chennai",
+    startTime: "1:00PM",
+    endTime: "4:00AM",
+    totalSeats: 120,
+    availableSeats: 43,
+    ticketPrice: 640,
+  },
+]
+
 }
